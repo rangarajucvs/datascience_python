@@ -1,8 +1,33 @@
 
 Install Python 3.5 or newer on your machine.
+As root user
+# yum install -y https://centos7.iuscommunity.org/ius-release.rpm
+# yum update -y
+# yum install -y python36u python36u-libs python36u-devel python36u-pip
+# which -a python3.6
+   Output:
+       /usr/bin/python3.6
+       /bin/python3.6
 
-Use venv (that comes with python 3.3 and above) for each of your project so you can have separate virtual environment for
-each of your projects.
+Use venv (that comes with python 3.3 and above) for each of your project so you
+can have separate virtual environment for each of your projects.
+
 Commands to run are as follows:
-# python -m venv /opt/data_analysis/venv
+# python3.6 -m venv /opt/data_analysis/venv
+# cd /opt/data_analysis/
 # source venv/bin/activate
+# which python
+Now you will notice you are using python of the virtual env
+# deactivate
+It will deactivate the virtual env python
+# which python3.6
+It will now show the system python path.
+So re-activate virtual env using below command.
+# cd /opt/data_analysis/;source venv/bin/activate
+# pip install python-twitter
+# pip uninstall python-twitter
+# pip install python-twitter
+OR
+# pip install git+git://github.com/bear/python-twitter
+
+# pip install numpy
