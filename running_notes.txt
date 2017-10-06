@@ -40,3 +40,13 @@ requirements.txt file to be created with following content so pip can install th
    SQLAlchemy
 # pip install -r requirements.txt
 Now the Python and necessary pip libraries we need are all installed and setup.
+
+navigate in browser to https://apps.twitter.com
+Create a new dummy app and set it up to be read-only from read and write
+Generate Tokens for the newly created app.
+Obtain the Tokens from the website onto your python app on your computer into a file.
+File:  /opt/data_analysis/twitter_data_access.py
+Edit the file as desired using tweepy python api
+
+# cd /opt/data_analysis; source venv/bin/activate
+# python /opt/data_analysis/twitter_data_access.py
