@@ -27,7 +27,16 @@ So re-activate virtual env using below command.
 # pip install python-twitter
 # pip uninstall python-twitter
 # pip install python-twitter
-OR
+          OR
 # pip install git+git://github.com/bear/python-twitter
 
-# pip install numpy
+requirements.txt file to be created with following content so pip can install them for us.
+   jupyter
+   nltk
+   numpy
+   pandas
+   PyQt5
+   python-twitter
+   SQLAlchemy
+# pip install -r requirements.txt
+Now the Python and necessary pip libraries we need are all installed and setup.
