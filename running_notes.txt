@@ -1,10 +1,8 @@
 
 Install Python 3.5 or newer on your machine.
 
-Use venv (that comes with python 3.3 and above) for each of your project so you can have separate virtual environment for 
+Use venv (that comes with python 3.3 and above) for each of your project so you can have separate virtual environment for
 each of your projects.
 Commands to run are as follows:
 # python -m venv /opt/data_analysis/venv
 # source venv/bin/activate
-
-
